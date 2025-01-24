@@ -1,0 +1,58 @@
+body {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2em;
+  font-family: "Arial", sans-serif;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+hr {
+  width: 90%;
+  text-align: left;
+  margin: 0;
+}
+
+h3 {
+  color: #16404d;
+}
+
+h4 {
+  color: #a6cdc6;
+}
+
+h1,
+h2 {
+  color: #dda853;
+  /* text-shadow: black 1px 1px 1px; */
+}
+
+.companyName,
+.universityName {
+  font-weight: bold;
+}
+
+#social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+  font-size: 2em;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  cursor: pointer;
+}
